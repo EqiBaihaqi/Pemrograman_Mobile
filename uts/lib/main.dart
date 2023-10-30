@@ -199,134 +199,140 @@ class _MyAppState extends State<MyApp> {
                                 Column(
                                   children: [
                                     Image.network(
-                                      'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
+                                      'https://static.thenounproject.com/png/1647118-200.png',
                                       width: 40,
                                       height: 40,
                                     ),
-                                    Text('TopUp')
+                                    Text('Send Money')
                                   ],
                                 ),
                                 Column(
                                   children: [
                                     Image.network(
-                                      'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
+                                      'https://cdn-icons-png.flaticon.com/512/3702/3702886.png',
                                       width: 40,
                                       height: 40,
                                     ),
-                                    Text('TopUp')
+                                    Text('Ticket Code')
                                   ],
                                 ),
                                 Column(
                                   children: [
                                     Image.network(
-                                      'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
+                                      'https://static.thenounproject.com/png/1580786-200.png',
                                       width: 40,
                                       height: 40,
                                     ),
-                                    Text('TopUp')
+                                    Text('See All')
                                   ],
                                 ),
                               ],
                             ),
                           ))),
                   Container(
-                    margin: EdgeInsets.only(left: 30, right: 30, top: 20),
+                    margin: EdgeInsets.only(left: 30, right: 30, top: 10),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Column(
                           children: [
                             Image.network(
-                              'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
+                              'https://cdn-icons-png.flaticon.com/512/9225/9225898.png',
                               width: 47,
                               height: 47,
                             ),
-                            Text('TopUp')
+                            Text('Pulsa/Data')
                           ],
                         ),
                         Column(
                           children: [
                             Image.network(
-                              'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
+                              'https://cdn-icons-png.flaticon.com/512/7309/7309581.png',
                               width: 47,
                               height: 47,
                             ),
-                            Text('TopUp')
+                            Text('Electricity')
                           ],
                         ),
                         Column(
                           children: [
                             Image.network(
-                              'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
+                              'https://cdn-icons-png.flaticon.com/512/503/503953.png',
                               width: 47,
                               height: 47,
                             ),
-                            Text('TopUp')
+                            Text('BPJS')
                           ],
                         ),
                         Column(
                           children: [
                             Image.network(
-                              'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
+                              'https://cdn-icons-png.flaticon.com/512/351/351157.png',
                               width: 47,
                               height: 47,
                             ),
-                            Text('TopUp')
+                            Text('mgames')
                           ],
                         ),
                       ],
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.only(left: 30, right: 30, top: 20),
+                    margin: EdgeInsets.only(left: 30, right: 30, top: 5),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Column(
-                          children: [
-                            Image.network(
-                              'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
-                              width: 47,
-                              height: 47,
-                            ),
-                            Text('TopUp')
-                          ],
+                        Container(
+                          margin: EdgeInsets.only(top: 20),
+                          child: Column(
+                            children: [
+                              Image.network(
+                                'https://cdn-icons-png.flaticon.com/512/6688/6688482.png',
+                                width: 47,
+                                height: 47,
+                              ),
+                              Text('Cable TV \n &Internet')
+                            ],
+                          ),
                         ),
                         Column(
                           children: [
                             Image.network(
-                              'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
+                              'https://cdn-icons-png.flaticon.com/512/3105/3105807.png',
                               width: 47,
                               height: 47,
                             ),
-                            Text('TopUp')
+                            Text('PDAM')
                           ],
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(top: 20),
+                          child: Column(
+                            children: [
+                              Image.network(
+                                'https://cdn-icons-png.flaticon.com/512/4564/4564455.png',
+                                width: 47,
+                                height: 47,
+                              ),
+                              Text('Kartu Uang \n Elektronik')
+                            ],
+                          ),
                         ),
                         Column(
                           children: [
                             Image.network(
-                              'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
+                              'https://cdn-icons-png.flaticon.com/512/9542/9542342.png',
                               width: 47,
                               height: 47,
                             ),
-                            Text('TopUp')
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            Image.network(
-                              'https://cdn-icons-png.flaticon.com/512/3155/3155613.png',
-                              width: 47,
-                              height: 47,
-                            ),
-                            Text('TopUp')
+                            Text('More')
                           ],
                         ),
                       ],
                     ),
                   ),
                   Container(
-                      margin: EdgeInsets.only(top: 25),
+                      margin: EdgeInsets.only(top: 10),
                       child: Column(
                         children: [
                           SizedBox(
@@ -345,11 +351,11 @@ class _MyAppState extends State<MyApp> {
                                   viewportFraction: 0.8,
                                 ),
                                 items: [
-                                  'https://via.placeholder.com/300',
-                                  'https://via.placeholder.com/300',
-                                  'https://via.placeholder.com/300',
-                                  'https://via.placeholder.com/300',
-                                  'https://via.placeholder.com/300',
+                                  'https://i.guim.co.uk/img/media/f8ede4c1b46f7703870747764c7395594a9cd272/0_0_5315_3190/master/5315.jpg?width=465&dpr=1&s=none',
+                                  'https://globalnews.ca/wp-content/uploads/2021/02/Sunday-Aaron-Suek-Near-Saskatoon-SK.jpg?quality=85&strip=all&w=1200',
+                                  'https://globalnews.ca/wp-content/uploads/2021/07/Saturday-Trisha-McCulloch-Makwa-Lake-SK.jpg?quality=85&strip=all&w=1200',
+                                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhrnnzEMrcUFJVWR6VOWHuviR97KM-PMajc7PrcjP97BZ1nSy22tWOJJRDwXXKdQqvPI&usqp=CAU',
+                                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kvRv0dfVYGVdCKu8J7wEfeXC3HdpaB8RHxwEJcpQYWPCS131Hudl-oiWKOoT31w3314&usqp=CAU',
                                 ].map((url) {
                                   return Builder(
                                     builder: (BuildContext context) {
@@ -390,52 +396,93 @@ class _MyAppState extends State<MyApp> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               GestureDetector(
-                onTap: () {},
-                child: Image.network(
-                  'https://icons.veryicon.com/png/o/commerce-shopping/enterprise-financial-management/navigation-home-1.png',
-                  width: 35,
-                  height: 35,
-                ),
-              ),
-              GestureDetector(
-                onTap: () {},
-                child: Image.network(
-                  'https://icons.veryicon.com/png/o/commerce-shopping/enterprise-financial-management/navigation-home-1.png',
-                  width: 35,
-                  height: 35,
-                ),
-              ),
-              Container(
-          
-                margin: EdgeInsets.only(bottom: 30),
-                child: GestureDetector(
                   onTap: () {},
-                  child: Image.network(
-                    'https://icons.veryicon.com/png/o/commerce-shopping/enterprise-financial-management/navigation-home-1.png',
-                    width: 40,
-                    height: 40,
-                  ),
-                ),
-              ),
+                  child: Column(
+                    children: [
+                      Image.network(
+                        'https://icons.veryicon.com/png/o/commerce-shopping/enterprise-financial-management/navigation-home-1.png',
+                        width: 33,
+                        height: 33,
+                      ),
+                      Text('Home')
+                    ],
+                  )),
               GestureDetector(
-                onTap: () {},
-                child: Image.network(
-                  'https://icons.veryicon.com/png/o/commerce-shopping/enterprise-financial-management/navigation-home-1.png',
-                  width: 35,
-                  height: 35,
-                ),
-              ),
+                  onTap: () {
+                    print('test');
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => HistoryPage()));
+                  },
+                  child: Column(
+                    children: [
+                      Image.network(
+                        'https://cdn-icons-png.flaticon.com/512/2961/2961948.png',
+                        width: 33,
+                        height: 33,
+                      ),
+                      Text('History')
+                    ],
+                  )),
               GestureDetector(
-                onTap: () {},
-                child: Image.network(
-                  'https://icons.veryicon.com/png/o/commerce-shopping/enterprise-financial-management/navigation-home-1.png',
-                  width: 35,
-                  height: 35,
-                ),
-              ),
+                  onTap: () {},
+                  child: Column(
+                    children: [
+                      Image.network(
+                        'https://astrapay.com/static-assets/images/qris/icon/icon_scan_qris.png',
+                        width: 40,
+                        height: 40,
+                      ),
+                      Text('Pay')
+                    ],
+                  )),
+              GestureDetector(
+                  onTap: () {},
+                  child: Column(
+                    children: [
+                      Image.network(
+                        'https://cdn-icons-png.flaticon.com/512/6753/6753206.png',
+                        width: 33,
+                        height: 33,
+                      ),
+                      Text('Inbox')
+                    ],
+                  )),
+              GestureDetector(
+                  onTap: () {},
+                  child: Column(
+                    children: [
+                      Image.network(
+                        'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
+                        width: 33,
+                        height: 33,
+                      ),
+                      Text('Account')
+                    ],
+                  )),
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+class HistoryPage extends StatefulWidget {
+  const HistoryPage({super.key});
+
+  @override
+  State<HistoryPage> createState() => _HistoryPageState();
+}
+
+class _HistoryPageState extends State<HistoryPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('History Page'),
+      ),
+      body: Center(
+        child: Text('This is the History Page'),
       ),
     );
   }
